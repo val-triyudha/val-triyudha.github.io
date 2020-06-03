@@ -1,52 +1,35 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Affamato</title>
-	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="css/bookstyle.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Affamato Restaurant</title>
 </head>
-<body>
+<body style="overflow: hidden;">
 	<header>
-		<a href="index.html"><img src="logo.jpg" alt="logo Affamato" id="logo"></a>
-		<nav>
-			<ul>
-			<li><a>ABOUT US</a></li>
-			<li><a>MENU</a></li>
-			<li><a>CONTACT US</a></li>
-			<ul>
-		</nav>
+		<div class="index-header">
+			<div class="index-container">
+				<div class="index-site-logo">
+					<a href="index.html">
+						<img draggable="false" class="index-site-logo-btn" src="source/logo.png" alt="Affamato Restaurant Home">
+					</a>
+				</div>
+				<nav class="index-site-nav">
+					<ul class="index-site-nav-menu">
+						<li><a href="welcomepage.html">WELCOME</a></li>
+						<li><a href="menu.html">MENU</a></li>
+						<li><a href="privateDine.html">PRIVATE DINING</a></li>
+						<li><a href="ourteam.html">OUR TEAM</a></li>
+						<li><a href="reservations.html">RESERVATIONS</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
 	</header>
-	<div class="welcome-sign">
-		<h2>Welcome to affamato</h2>
+	
+	<div class="index-content">
 	</div>
-	<div class="booking-form-box">
-			<div class="radio-title"><h5>Table Types</h5></div>
-			<div class="radio-btn">
-				<input type="radio" class="btn" name="check" checked="checked"><span>Regular</span>
-				<input type="radio" class="btn" name="check"><span>Balcony</span>
-				<input type="radio" class="btn" name="check"><span>VIP+++</span>
-			</div>
-
-			<div class="booking-form">
-				
-				<div class="input-grp">
-					<label>Booking Date</label>
-					<input type="date" class="form-control select-date">
-				</div>
-
-				<div class="input-grp">
-					<label>Time</label>
-					<input type="text" class="form-control select-date" placeholder="00:00 - 00:00">
-				</div>
-
-				
-				<div class="input-grp">
-					<button type="button" class="btn btn-primary flight">Search for tables</button>
-				</div>
-			</div>
-
-			
-	</div>
-
 </body>
 </html>
+
